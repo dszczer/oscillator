@@ -1,0 +1,21 @@
+{
+  "name": "dszczer/oscillator",
+  "description": "Emulator for hardware oscillator or any synchronous-driven systems for PHP",
+  "minimum-stability": "stable",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Damian Szczerbiński",
+      "email": "kodkod.damian.szczerbinski@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1||^8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dszczer\\Oscillator\\": "src"
+    }
+  }
+}
